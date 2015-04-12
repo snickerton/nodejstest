@@ -26,11 +26,15 @@
 
   var.addEventListener("click", function(){
 
+    console.log("clicked");
+
     socket.emit('chat message', input.value);
+
+    console.log(value);
     input.innerHTML = "";
 
     return false;
-    
+
   });
 
   socket.on('chat message', function(msg){
