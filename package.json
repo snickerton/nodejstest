@@ -1,0 +1,32 @@
+{
+  "name": "nodejstest",
+  "version": "1.0.0",
+  "description": "testing out socket.io and node js with a chat example",
+  "main": "node.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snickerton/nodejstest.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "socket",
+    "io",
+    "chat",
+    "test"
+  ],
+  "author": "Tony Zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snickerton/nodejstest/issues"
+  },
+  "homepage": "https://github.com/snickerton/nodejstest",
+  "dependencies": {
+    "express": "^4.12.3",
+    "nodemon": "^1.3.7",
+    "socket.io": "^1.3.5"
+  }
+}
